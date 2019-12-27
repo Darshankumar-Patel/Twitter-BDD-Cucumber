@@ -1,0 +1,126 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 6,
+        "name": "Twitt with the help of API Automation",
+        "description": "",
+        "id": "twitter-get-method;twitt-with-the-help-of-api-automation",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3081017100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I am on Twitter Home Page",
+            "match": {
+              "location": "TwitterGetMethod.i_am_on_Twitter_Home_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 361671200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I run get method in Automation Framwork",
+            "match": {
+              "location": "TwitterGetMethod.i_run_get_method_in_Automation_Framwork()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1112974300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I shoud be abale to see the Twitt on Twitter Website",
+            "match": {
+              "location": "TwitterGetMethod.i_shoud_be_abale_to_see_the_Twitt_on_Twitter_Website()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 5,
+            "name": "@RunThis"
+          }
+        ]
+      }
+    ],
+    "name": "Twitter Get Method",
+    "description": "As an User\r\nI want to Twitt from Intelij IDE\r\nSo that I can see the Twitt on Twitter website",
+    "id": "twitter-get-method",
+    "keyword": "Feature",
+    "uri": "twitterGet.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 6,
+        "name": "Twitte with the help of API Automation",
+        "description": "",
+        "id": "twitter-post-method;twitte-with-the-help-of-api-automation",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 543508400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I am on Twitt Home Page",
+            "match": {
+              "location": "TwitterPostMethod.i_am_on_Twitt_Home_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 771025400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I run post method in Automation Framwork",
+            "match": {
+              "location": "TwitterPostMethod.i_run_post_method_in_Automation_Framwork()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 825860700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I should be able to see the Twitt on Twitter Website",
+            "match": {
+              "location": "TwitterPostMethod.i_should_be_able_to_see_the_Twitt_on_Twitter_Website()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 5,
+            "name": "@RunThis"
+          }
+        ]
+      }
+    ],
+    "name": "Twitter Post Method",
+    "description": "As an User\r\nI want to Twitt from Intelij IDE\r\nSo that I can see the Twitt on Twitter website",
+    "id": "twitter-post-method",
+    "keyword": "Feature",
+    "uri": "twitterPost.feature"
+  }
+]
